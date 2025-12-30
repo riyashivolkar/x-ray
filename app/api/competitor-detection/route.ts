@@ -147,7 +147,7 @@ export async function POST(request: Request) {
     const titleWords = productTitle
       .toLowerCase()
       .split(/\s+/)
-      .filter((word) => word.length > 2 && !stopWords.includes(word));
+      .filter((word: string) => word.length > 2 && !stopWords.includes(word));
 
     // Generate primary keyword (full cleaned title) and secondary keyword (first 3-4 key terms)
     const primaryKeyword = titleWords.join(" ");
@@ -205,7 +205,9 @@ export async function POST(request: Request) {
 
       const searchText = `${titleLower} ${featuresLower} ${specificationsText}`;
 
-      const matches = searchTerms.some((term) => searchText.includes(term));
+      const matches = searchTerms.some((term: string) =>
+        searchText.includes(term)
+      );
 
       console.log(` Product "${product.title}":`);
       console.log(`  - Title: ${titleLower}`);
@@ -218,10 +220,9 @@ export async function POST(request: Request) {
       );
       console.log(`  - Matches any term: ${matches}`);
       console.log(
-        `  - Matching terms: ${
-          searchTerms.filter((term) => searchText.includes(term)).join(", ") ||
-          "none"
-        }`
+        `  - Matching terms: ${searchTerms.filter((term: string) =>
+          searchText.includes(term)
+        )}`
       );
 
       return matches;
