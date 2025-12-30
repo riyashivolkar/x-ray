@@ -1,0 +1,76 @@
+{
+  "collection": "reviews",
+  "description": "Sample product reviews linked to products via ASIN (converted to ObjectId at seed time)",
+  "data": [
+    {
+      "productAsin": "B0COMP01",
+      "rating": 5,
+      "reviewText": "Excellent insulation and build quality. Keeps water cold for 24+ hours!",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-12T14:22:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP01",
+      "rating": 4,
+      "reviewText": "Great bottle, but a bit pricey. Worth it for the quality though.",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-13T09:15:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP02",
+      "rating": 5,
+      "reviewText": "Best water bottle I've ever owned. Dishwasher safe is a huge plus!",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-14T16:45:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP02",
+      "rating": 4,
+      "reviewText": "Solid construction. Slightly smaller than expected but still great.",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-14T18:30:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP03",
+      "rating": 3,
+      "reviewText": "It's okay for the price. Doesn't keep drinks cold very long.",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-11T11:20:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP03",
+      "rating": 2,
+      "reviewText": "Cheap plastic feel. Started leaking after a week.",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-12T08:10:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP04",
+      "rating": 5,
+      "reviewText": "Perfect for cleaning bottles. All brush sizes included!",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-13T11:30:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP07",
+      "rating": 5,
+      "reviewText": "Love the handle and straw lid. Stays cold all day!",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-14T10:15:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP09",
+      "rating": 5,
+      "reviewText": "Classic Nalgene quality. Love the measurement markings!",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-15T08:45:00.000Z" }
+    },
+    {
+      "productAsin": "B0COMP10",
+      "rating": 4,
+      "reviewText": "Magnetic cap is genius. Easy to use one-handed.",
+      "source": "amazon",
+      "createdAt": { "$date": "2025-01-15T14:20:00.000Z" }
+    }
+  ]
+}

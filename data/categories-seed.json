@@ -1,0 +1,55 @@
+{
+  "collection": "categories",
+  "description": "Product taxonomy with categories and subcategories",
+  "data": [
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c85" },
+      "name": "Sports & Outdoors",
+      "type": "category",
+      "parentId": null,
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c86" },
+      "name": "Water Bottles",
+      "type": "subcategory",
+      "parentId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c87" },
+      "name": "Travel Mugs",
+      "type": "subcategory",
+      "parentId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c88" },
+      "name": "Bottle Accessories",
+      "type": "subcategory",
+      "parentId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c89" },
+      "name": "Home & Kitchen",
+      "type": "category",
+      "parentId": null,
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c8a" },
+      "name": "Drinkware",
+      "type": "subcategory",
+      "parentId": { "$oid": "60d21b4667d0d8992e610c89" },
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    },
+    {
+      "_id": { "$oid": "60d21b4667d0d8992e610c8b" },
+      "name": "Cleaning Tools",
+      "type": "subcategory",
+      "parentId": { "$oid": "60d21b4667d0d8992e610c89" },
+      "createdAt": { "$date": "2025-01-01T00:00:00.000Z" }
+    }
+  ]
+}

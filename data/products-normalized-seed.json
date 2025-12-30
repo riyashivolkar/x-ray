@@ -1,0 +1,186 @@
+{
+  "collection": "products",
+  "description": "Normalized product catalog with category references",
+  "data": [
+    {
+      "asin": "B0COMP01",
+      "title": "HydroFlask 32oz Wide Mouth",
+      "brand": "HydroFlask",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c86" },
+      "price": 44.99,
+      "rating": 4.5,
+      "reviewCount": 8932,
+      "specifications": {
+        "features": ["stainless steel", "insulated", "32oz", "wide mouth", "BPA-free"],
+        "dimensions": { "height": 10.5, "diameter": 3.5, "weight": 0.95 }
+      },
+      "colors": ["blue", "black", "white", "pink"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP02",
+      "title": "Yeti Rambler 26oz",
+      "brand": "Yeti",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c86" },
+      "price": 34.99,
+      "rating": 4.4,
+      "reviewCount": 5621,
+      "specifications": {
+        "features": ["stainless steel", "vacuum insulated", "26oz", "durable", "dishwasher safe"],
+        "dimensions": { "height": 9.75, "diameter": 3.25, "weight": 0.85 }
+      },
+      "colors": ["navy", "seafoam", "black", "stainless"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP03",
+      "title": "Generic Water Bottle",
+      "brand": "BasicBrand",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c89" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c8a" },
+      "price": 8.99,
+      "rating": 3.2,
+      "reviewCount": 45,
+      "specifications": {
+        "features": ["plastic", "basic", "20oz", "lightweight"],
+        "dimensions": { "height": 8.0, "diameter": 2.75, "weight": 0.25 }
+      },
+      "colors": ["clear", "blue"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP04",
+      "title": "Bottle Cleaning Brush Set",
+      "brand": "CleanKit",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c89" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c8b" },
+      "price": 12.99,
+      "rating": 4.6,
+      "reviewCount": 3421,
+      "specifications": {
+        "features": ["brush set", "bottle cleaner", "5 pieces", "flexible"],
+        "dimensions": { "height": 12.0, "diameter": 2.0, "weight": 0.15 }
+      },
+      "colors": ["green", "blue"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP05",
+      "title": "Replacement Lid for HydroFlask",
+      "brand": "HydroFlask",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c88" },
+      "price": 9.99,
+      "rating": 4.7,
+      "reviewCount": 1200,
+      "specifications": {
+        "features": ["replacement part", "lid", "fits 32oz", "leak-proof"],
+        "dimensions": { "height": 2.0, "diameter": 3.5, "weight": 0.1 }
+      },
+      "colors": ["black", "white"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP06",
+      "title": "Water Bottle Carrier Bag with Strap",
+      "brand": "CarryEase",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c88" },
+      "price": 19.99,
+      "rating": 4.3,
+      "reviewCount": 2100,
+      "specifications": {
+        "features": ["carrier bag", "adjustable strap", "insulated pocket", "fits 32oz bottles"],
+        "dimensions": { "height": 11.0, "diameter": 4.0, "weight": 0.3 }
+      },
+      "colors": ["black", "gray", "navy"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP07",
+      "title": "Stanley Adventure Quencher",
+      "brand": "Stanley",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c86" },
+      "price": 35.0,
+      "rating": 4.3,
+      "reviewCount": 4102,
+      "specifications": {
+        "features": ["stainless steel", "vacuum insulated", "30oz", "handle", "straw lid"],
+        "dimensions": { "height": 10.0, "diameter": 3.75, "weight": 1.1 }
+      },
+      "colors": ["cream", "charcoal", "rose", "mint"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP08",
+      "title": "Contigo Autoseal West Loop",
+      "brand": "Contigo",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c87" },
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 6543,
+      "specifications": {
+        "features": ["stainless steel", "autoseal", "20oz", "leak-proof", "one-handed"],
+        "dimensions": { "height": 8.5, "diameter": 3.0, "weight": 0.7 }
+      },
+      "colors": ["black", "blue", "red"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP09",
+      "title": "Nalgene Wide Mouth 32oz",
+      "brand": "Nalgene",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c86" },
+      "price": 12.99,
+      "rating": 4.6,
+      "reviewCount": 9876,
+      "specifications": {
+        "features": ["BPA-free plastic", "wide mouth", "32oz", "durable", "graduated markings"],
+        "dimensions": { "height": 8.25, "diameter": 3.5, "weight": 0.35 }
+      },
+      "colors": ["clear", "blue", "green", "pink", "purple"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    },
+    {
+      "asin": "B0COMP10",
+      "title": "CamelBak Chute Mag 32oz",
+      "brand": "CamelBak",
+      "categoryId": { "$oid": "60d21b4667d0d8992e610c85" },
+      "subcategoryId": { "$oid": "60d21b4667d0d8992e610c86" },
+      "price": 22.0,
+      "rating": 4.5,
+      "reviewCount": 5234,
+      "specifications": {
+        "features": ["BPA-free", "magnetic cap", "32oz", "ergonomic", "dishwasher safe"],
+        "dimensions": { "height": 9.5, "diameter": 3.25, "weight": 0.4 }
+      },
+      "colors": ["blue", "black", "red", "green"],
+      "inStock": true,
+      "lastUpdated": { "$date": "2025-01-15T10:30:00.000Z" },
+      "createdAt": { "$date": "2025-01-10T09:00:00.000Z" }
+    }
+  ]
+}

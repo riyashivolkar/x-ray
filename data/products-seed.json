@@ -1,0 +1,166 @@
+{
+  "collection": "products",
+  "description": "Product catalog for competitor detection system with normalized references to categories",
+  "data": [
+    {
+      "asin": "B0COMP01",
+      "title": "HydroFlask 32oz Wide Mouth",
+      "brand": "HydroFlask",
+      "price": 44.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Water Bottles",
+      "specifications": {
+        "features": ["stainless steel", "insulated", "32oz", "wide mouth", "BPA-free"],
+        "dimensions": { "height": 10.5, "diameter": 3.5, "weight": 0.95 }
+      },
+      "colors": ["blue", "black", "white", "pink"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP02",
+      "title": "Yeti Rambler 26oz",
+      "brand": "Yeti",
+      "price": 34.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Water Bottles",
+      "specifications": {
+        "features": ["stainless steel", "vacuum insulated", "26oz", "durable", "dishwasher safe"],
+        "dimensions": { "height": 9.75, "diameter": 3.25, "weight": 0.85 }
+      },
+      "colors": ["navy", "seafoam", "black", "stainless"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP03",
+      "title": "Generic Water Bottle",
+      "brand": "BasicBrand",
+      "price": 8.99,
+      "categoryName": "Home & Kitchen",
+      "subcategoryName": "Drinkware",
+      "specifications": {
+        "features": ["plastic", "basic", "20oz", "lightweight"],
+        "dimensions": { "height": 8.0, "diameter": 2.75, "weight": 0.25 }
+      },
+      "colors": ["clear", "blue"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP04",
+      "title": "Bottle Cleaning Brush Set",
+      "brand": "CleanKit",
+      "price": 12.99,
+      "categoryName": "Home & Kitchen",
+      "subcategoryName": "Cleaning Tools",
+      "specifications": {
+        "features": ["brush set", "bottle cleaner", "5 pieces", "flexible"],
+        "dimensions": { "height": 12.0, "diameter": 2.0, "weight": 0.15 }
+      },
+      "colors": ["green", "blue"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP05",
+      "title": "Replacement Lid for HydroFlask",
+      "brand": "HydroFlask",
+      "price": 9.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Bottle Accessories",
+      "specifications": {
+        "features": ["replacement part", "lid", "fits 32oz", "leak-proof"],
+        "dimensions": { "height": 2.0, "diameter": 3.5, "weight": 0.1 }
+      },
+      "colors": ["black", "white"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP06",
+      "title": "Water Bottle Carrier Bag with Strap",
+      "brand": "CarryEase",
+      "price": 19.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Bottle Accessories",
+      "specifications": {
+        "features": ["carrier bag", "adjustable strap", "insulated pocket", "fits 32oz bottles"],
+        "dimensions": { "height": 11.0, "diameter": 4.0, "weight": 0.3 }
+      },
+      "colors": ["black", "gray", "navy"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP07",
+      "title": "Stanley Adventure Quencher",
+      "brand": "Stanley",
+      "price": 35.0,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Water Bottles",
+      "specifications": {
+        "features": ["stainless steel", "vacuum insulated", "30oz", "handle", "straw lid"],
+        "dimensions": { "height": 10.0, "diameter": 3.75, "weight": 1.1 }
+      },
+      "colors": ["cream", "charcoal", "rose", "mint"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP08",
+      "title": "Contigo Autoseal West Loop",
+      "brand": "Contigo",
+      "price": 18.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Travel Mugs",
+      "specifications": {
+        "features": ["stainless steel", "autoseal", "20oz", "leak-proof", "one-handed"],
+        "dimensions": { "height": 8.5, "diameter": 3.0, "weight": 0.7 }
+      },
+      "colors": ["black", "blue", "red"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP09",
+      "title": "Nalgene Wide Mouth 32oz",
+      "brand": "Nalgene",
+      "price": 12.99,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Water Bottles",
+      "specifications": {
+        "features": ["BPA-free plastic", "wide mouth", "32oz", "durable", "graduated markings"],
+        "dimensions": { "height": 8.25, "diameter": 3.5, "weight": 0.35 }
+      },
+      "colors": ["clear", "blue", "green", "pink", "purple"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "asin": "B0COMP10",
+      "title": "CamelBak Chute Mag 32oz",
+      "brand": "CamelBak",
+      "price": 22.0,
+      "categoryName": "Sports & Outdoors",
+      "subcategoryName": "Water Bottles",
+      "specifications": {
+        "features": ["BPA-free", "magnetic cap", "32oz", "ergonomic", "dishwasher safe"],
+        "dimensions": { "height": 9.5, "diameter": 3.25, "weight": 0.4 }
+      },
+      "colors": ["blue", "black", "red", "green"],
+      "inStock": true,
+      "lastUpdated": "2025-01-15T10:30:00Z",
+      "createdAt": "2025-01-10T09:00:00Z"
+    }
+  ]
+}
